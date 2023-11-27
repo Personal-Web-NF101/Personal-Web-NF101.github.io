@@ -15,16 +15,14 @@
           // 页面加载时执行检测
           window.onload = function() {
               if (isWeChat()) {
-                  // 如果在微信内，可以进行重定向或者显示提示信息
-                  // 这里使用 alert 作为示例，你可以根据需要进行更改
+                  // 如果在微信内，强制在微信外打开
                   alert("请在微信外打开该网页！");
-                  // 如果需要重定向到其他页面，可以使用以下代码：
-                  // window.location.href = 'https://example.com';
+                  // 重定向到其他页面，可以根据需要修改URL
+                  window.location.href = 'https://personal-web-nf101.github.io/wechat_warning.html';
               }
           };
       </script>
   </head>
-
   
   <head>
   <meta charset="utf-8">
