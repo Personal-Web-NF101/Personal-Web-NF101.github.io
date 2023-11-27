@@ -2,6 +2,31 @@
 <html>
 
   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>微信外打开</title>
+      <script>
+          // 检测是否在微信内打开
+          function isWeChat() {
+              var ua = navigator.userAgent.toLowerCase();
+              return ua.indexOf('micromessenger') !== -1;
+          }
+  
+          // 页面加载时执行检测
+          window.onload = function() {
+              if (isWeChat()) {
+                  // 如果在微信内，可以进行重定向或者显示提示信息
+                  // 这里使用 alert 作为示例，你可以根据需要进行更改
+                  alert("请在微信外打开该网页！");
+                  // 如果需要重定向到其他页面，可以使用以下代码：
+                  // window.location.href = 'https://example.com';
+              }
+          };
+      </script>
+  </head>
+
+  
+  <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -49,7 +74,7 @@
     <div class="panel-main__content">
 
         <!--<a href="/#blog" title="前往 Alex Fang 的主页" class="blog-button"><img src="/assets/siteinfo/photograph.jpg" width="80" alt="Neural-Finance logo" class="panel-cover__logo logo" /></a> -->
-        <h1 class="panel-cover__title panel-title"><a href="https://github.com/Neural-Finance" title="link to homepage for NeuralFinance" class="blog-button">Neural-Finance</a></h1>
+        <h1 class="panel-cover__title panel-title"><a href="https://github.com/Neural-Finance" title="link to homepage for NeuralFinance" class="blog-button">poem-cloud</a></h1>
    
         <div class="navigation-wrapper">
           <div>
