@@ -4,56 +4,60 @@
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>微信外打开</title>
+      <title> poem-cloud </title>
       <script>
           // 检测是否在微信内打开
           function isWeChat() {
               var ua = navigator.userAgent.toLowerCase();
               return ua.indexOf('micromessenger') !== -1;
           }
-  
+
           // 页面加载时执行检测
           window.onload = function() {
               if (isWeChat()) {
                   // 如果在微信内，强制在微信外打开
-                  alert("请在微信外，通过网页浏览器打开此链接。\nPlease open this link out of the wechat program, via web browser.");
+                  alert("推荐您在微信外，通过网页浏览器打开此链接。 It will better to open this link out of the wechat app, via web browser.");
               }
           };
       </script>
   </head>
-  
+
+
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+
 
   <title>Personal Website | Alex Fang</title>
   <meta name="author" content="AlexFang">
   <meta name="keywords" content="Nope">
-  
+
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Neural-Finance">
+  <meta name="twitter:title" content="poem-cloud">
   <meta name="twitter:keywords" content="">
-  
+
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Neural-Finance">
+  <meta property="og:title" content="poem-cloud">
   <meta name="og:keywords" content="">
 
   <meta name="theme-color" content="#343434">
-  
+
   <link rel="icon" type="image/png" href="/assets/siteinfo/favicon.png" />
   <link href="/master/assets/siteinfo/favicon.png" rel="shortcut icon" type="image/png">
-  
+
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/main.css">
 
   <link rel="canonical" href="http://www.AlexFang.com/">
-  <link rel="alternate" type="application/rss+xml" title="Neural-Finance" href="http://www.AlexFang.com/feed.xml">
-  
+  <link rel="alternate" type="application/rss+xml" title="poem-cloud" href="http://www.AlexFang.com/feed.xml">
+
   <!--阅读次数统计-->
   <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"> </script>
 
 </head>
+
 
 
   <body>
@@ -70,23 +74,39 @@
     <div class="panel-main__content">
 
         <!--<a href="/#blog" title="前往 Alex Fang 的主页" class="blog-button"><img src="/assets/siteinfo/photograph.jpg" width="80" alt="Neural-Finance logo" class="panel-cover__logo logo" /></a> -->
-        <h1 class="panel-cover__title panel-title"><a href="https://github.com/Neural-Finance" title="link to homepage for NeuralFinance" class="blog-button">poem-cloud</a></h1>
-   
+        <h1 class="panel-cover__title panel-title"><a href="https://personal-web-nf101.github.io" title="link to homepage for poem-cloud">poem-cloud</a></h1>
+
+        
+        <span class="panel-cover__subtitle panel-subtitle">poem-cloud</span>
+
+        <hr class="panel-cover__divider" />
+        <p class="panel-cover__description">
+We are a financial consulting firm that combines artificial intelligence algorithms with industry expertise from world-leading buyside and sellside companies. We provide investment signals, and a variety of investment research services tailored to your needs.</p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+        <p class="panel-cover__description">欢迎来到我的世界!</p>
+
+
+
         <div class="navigation-wrapper">
           <div>
             <nav class="cover-navigation cover-navigation--primary">
               <ul class="navigation">
-                
+
+
+                    <li class="navigation__item"><a href="https://personal-web-nf101.github.io/product_overview.html" target="_blank" title="Product Overview" >Product Overview</a></li>
                 
                   
-                    <li class="navigation__item"><a href="https://github.com/Neural-Finance" target="_blank" title="Neural-Finance's GitHub">GitHub</a></li>
-            
-                
-                
-                    <li class="navigation__item"><a href="./My_quant_strategy.html" title="About My Quant Strateg">Quant Strategy</a></li>
+                    <li class="navigation__item"><a href="https://personal-web-nf101.github.io/large_language_models.html" target="_blank" title="Large Language Models">Large Language Models</a></li>
+
                   
+                    <li class="navigation__item"><a href="https://personal-web-nf101.github.io/ai_for_price_and_volume.html" target="_blank" title="AI for Price and Volume">AI for Price and Volume</a></li>
+
                   
-                
+                    <li class="navigation__item"><a href="https://personal-web-nf101.github.io/collaboration_opportunities.html" target="_blank" title="Collaboration Opportunities">Collaboration Opportunities</a></li>
+
+
               </ul>
             </nav>
           </div>
@@ -95,16 +115,37 @@
   <ul class="navigation">
 
 
-  <!-- Email -->
+
+  
+  <!-- Contact Info Summary -->
   <li class="navigation__item">
-    <a href="mailto:fangx18@mails.tsinghua.edu.cn" title="Email me">
+    <a href="https://personal-web-nf101.github.io/contact_us.html" title="Contact Us" target="_blank">
+      <i class='fa fa-address-card'></i>
+      <span class="label">Contact Us</span>
+    </a>
+  </li>
+
+
+
+  <!-- E-mail -->
+  <li class="navigation__item">
+    <a href="mailto:fangjie@poem-cloud.com.cn" title="E-mail">
       <i class='social fa fa-envelope'></i>
-      <span class="label">Email</span>
+      <span class="label">E-mail</span>
+    </a>
+  </li>
+
+
+
+  <!-- Linkedin Worldwide -->
+  <li class="navigation__item">
+    <a href="https://www.linkedin.com/in/alex-fang-67043010a/" title="Linkedin" target="_blank">
+      <i class='fa fa-linkedin'></i>
+      <span class="label">Linkedin</span>
     </a>
   </li>
   
 
- 
   
   </ul>
 </nav>
@@ -124,26 +165,24 @@
         <div class="content-wrapper__inner">
             <div class="main-post-list hidden">
 
+  <ol class="post-list">
+    <!--置顶-->
+
+    
+    
+  </ol>
 
   <hr class="post-list__divider " />
 
 <nav class="pagination" role="navigation">
-    
+
     <span class="pagination__page-number">1 / 1</span>
-    
+
 </nav>
 
 
 </div>
-
-            <section class="footer">
-    <footer>
-    	<span class="footer__copyright">本站点采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh">知识共享 署名-非商业性使用-禁止演绎 4.0 国际 许可协议</a></span>
-        <span class="footer__copyright">本站由 <a href="http://www.AlexFang.com">@AlexFang</a> 创建，采用 <a href="https://github.com/onevcat/vno-jekyll">Vno - Jekyll</a> 作为主题。<span id="busuanzi_container_site_pv"> 总访问量 <span id="busuanzi_value_site_pv"></span> 次</span> - &copy; 2021</span>
-        <span class="footer__sitemap, footer__copyright"><a href="http://www.gcssloop.com/sitemap.xml">Site Map</a></span>
-    </footer>
 </section>
-
         </div>
     </div>
     
@@ -158,4 +197,3 @@
   </body>
 
 </html>
-
